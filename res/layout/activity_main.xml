@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+     
+    	<Button 
+	    android:id="@+id/button1"
+	    android:height="5dp"
+	    android:width="5dp"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:text="pause"
+	    android:textSize="8dp"
+	    android:onClick="true"
+	    />	 
+    <com.example.graphics.AnotherBall 
+        android:id="@+id/anotherBallView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        />
+	
+
+    
+    </RelativeLayout>
